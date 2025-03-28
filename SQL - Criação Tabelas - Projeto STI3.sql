@@ -1,3 +1,5 @@
+CREATE DATABASE ProjetoSTI3
+GO
 CREATE TABLE Categoria
 (
   Id INT PRIMARY KEY IDENTITY(1,1),
@@ -24,7 +26,7 @@ CREATE TABLE Cliente
 )
 GO
 
-INSERT INTO Cliente (Id, Nome, CPF, Categoria) VALUES ('104B4852-228E-4DBA-AE12-345CDE66EA25', 'Jo„o', '111.222.333-44','REGULAR')
+INSERT INTO Cliente (Id, Nome, CPF, Categoria) VALUES ('104B4852-228E-4DBA-AE12-345CDE66EA25', 'Jo√£o', '111.222.333-44','REGULAR')
 INSERT INTO Cliente (Id, Nome, CPF, Categoria) VALUES (NEWID(),'Maria', '222.333.444-55', 'PREMIUM')
 INSERT INTO Cliente (Id, Nome, CPF, Categoria) VALUES (NEWID(),'Pedro', '666.777.888-99', 'VIP')
 GO
@@ -41,9 +43,9 @@ GO
 INSERT INTO Produto(Id, Nome)
 VALUES(87, 'Camisa Polo Preta M')
 INSERT INTO Produto(Id, Nome)
-VALUES(25, 'CalÁa Jeans 42')
+VALUES(25, 'Cal√ßa Jeans 42')
 INSERT INTO Produto(Id, Nome)
-VALUES(1, 'CalÁa Jeans 44')
+VALUES(1, 'Cal√ßa Jeans 44')
 GO
 
 
